@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Arial Narrow"; }
+
+html, body {
+  background: #c5ffc9;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0; }
+
+#wrapper {
+  width: 90%;
+  max-width: 460px;
+  margin: 15px auto;
+  height: 500px;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  -webkit-box-shadow: 0px 0px 49px 0px rgba(204, 204, 204, 0.36);
+  -moz-box-shadow: 0px 0px 49px 0px rgba(204, 204, 204, 0.36);
+  box-shadow: 0px 0px 49px 0px rgba(204, 204, 204, 0.36);
+  background-color: #f1f1f1; }
+  #wrapper .message-list {
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: calc(100% - 40px);
+    background-color: #fff;
+    overflow-y: auto; }
+    #wrapper .message-list div {
+      margin: 7px 0;
+      text-align: left; }
+      #wrapper .message-list div.own {
+        text-align: right; }
+      #wrapper .message-list div p {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #666;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin: 0;
+        display: inline-block; }
+  #wrapper .message-input {
+    height: 40px;
+    background-color: #f1f1f1; }
+    #wrapper .message-input input {
+      background-color: #f1f1f1;
+      border: none;
+      height: 40px;
+      width: calc(100% - 45px);
+      outline: none;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    #wrapper .message-input button {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border: none;
+      margin: 5px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #1e9f75;
+      color: #fff; }
+      #wrapper .message-input button:disabled {
+        background-color: #ccc;
+        color: #222; }
+
+/*# sourceMappingURL=style.css.map */
